@@ -82,6 +82,10 @@ El script de Python funciona como una interfaz entre la computadora y la FPGA, p
 
 Este script utiliza la librería `pyserial` para establecer la comunicación con la FPGA a través del puerto UART y permite realizar múltiples operaciones en una sesión continua.
 
+## Diagrama de Bloques
+
+![Diagrama de Bloques](https://drive.google.com/uc?id=1uOWOH8OlHSiW6xK-o4DBZfN72zBNspPS)
+
 ## 4. Conclusión
 
 En este proyecto, se implementó un sistema de comunicación UART que permite realizar operaciones lógicas y aritméticas en una FPGA Basys 3. La integración de múltiples módulos, como el receptor, la ALU, el transmisor y el script de Python, demuestra una comprensión profunda de las arquitecturas reconfigurables y de la interacción entre hardware y software.
